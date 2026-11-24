@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+client/node_modules/
+client/dist/
+
+# Large raw datasets (> 50 MB)
+data/*.db
+data/*.sqlite
+data/*.csv
+data/*.zip
+data/*.7z
+data/__MACOSX/
+data/gtfs/*.txt
+*.zip
+*.7z
+
+# Environment & logs
+.env
+*.log
+.DS_Store
+Thumbs.db

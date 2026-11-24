@@ -1,0 +1,4044 @@
+{
+  "sample_date": "2026-10-15",
+  "total_fleet_active": 250,
+  "corridor_stats": [
+    {
+      "corridor": "Central Delhi (Connaught Place / India Gate)",
+      "average_speed_kmh": 5.2,
+      "sample_pings": 1138,
+      "congestion_status": "Heavy Congestion"
+    },
+    {
+      "corridor": "Ring Road South (AIIMS / Lajpat Nagar)",
+      "average_speed_kmh": 5.5,
+      "sample_pings": 15675,
+      "congestion_status": "Heavy Congestion"
+    },
+    {
+      "corridor": "Trans-Yamuna Corridor (Vikas Marg)",
+      "average_speed_kmh": 9.1,
+      "sample_pings": 8264,
+      "congestion_status": "Heavy Congestion"
+    },
+    {
+      "corridor": "North Delhi Arterial (Kashmere Gate / Azadpur)",
+      "average_speed_kmh": 9.5,
+      "sample_pings": 5570,
+      "congestion_status": "Heavy Congestion"
+    },
+    {
+      "corridor": "West Delhi Corridor (Karol Bagh / Patel Nagar)",
+      "average_speed_kmh": 9.4,
+      "sample_pings": 11692,
+      "congestion_status": "Heavy Congestion"
+    },
+    {
+      "corridor": "Outer Ring Road South (Nehru Place / Saket)",
+      "average_speed_kmh": 7.5,
+      "sample_pings": 3028,
+      "congestion_status": "Heavy Congestion"
+    }
+  ],
+  "active_fleet_snapshot": [
+    {
+      "id": "DL1PD8121",
+      "vehicle_id": "DL1PD8121",
+      "routeId": "3097",
+      "route": "Route 3097",
+      "latitude": 28.611767,
+      "longitude": 76.978432,
+      "position": [
+        28.611767,
+        76.978432
+      ],
+      "speed": 45.0,
+      "trip_id": "3097_22_55",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9584",
+      "vehicle_id": "DL1PD9584",
+      "routeId": "2417",
+      "route": "Route 2417",
+      "latitude": 28.682076,
+      "longitude": 77.054955,
+      "position": [
+        28.682076,
+        77.054955
+      ],
+      "speed": 4.2,
+      "trip_id": "2417_23_32_3745",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7203",
+      "vehicle_id": "DL1PD7203",
+      "routeId": "627",
+      "route": "Route 627",
+      "latitude": 28.630371,
+      "longitude": 77.327805,
+      "position": [
+        28.630371,
+        77.327805
+      ],
+      "speed": 5.0,
+      "trip_id": "627_23_57_9421",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7095",
+      "vehicle_id": "DL1PD7095",
+      "routeId": "1786",
+      "route": "Route 1786",
+      "latitude": 28.689014,
+      "longitude": 77.291809,
+      "position": [
+        28.689014,
+        77.291809
+      ],
+      "speed": 16.7,
+      "trip_id": "1786_23_56_1783",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3770",
+      "vehicle_id": "DL51EV3770",
+      "routeId": "1597",
+      "route": "Route 1597",
+      "latitude": 28.766918,
+      "longitude": 77.145111,
+      "position": [
+        28.766918,
+        77.145111
+      ],
+      "speed": 1.8,
+      "trip_id": "1597_23_45_6599",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51EV1862",
+      "vehicle_id": "DL51EV1862",
+      "routeId": "1890",
+      "route": "Route 1890",
+      "latitude": 28.681286,
+      "longitude": 77.155243,
+      "position": [
+        28.681286,
+        77.155243
+      ],
+      "speed": 22.6,
+      "trip_id": "1890_22_42_5233",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD5431",
+      "vehicle_id": "DL1PD5431",
+      "routeId": "2316",
+      "route": "Route 2316",
+      "latitude": 28.618984,
+      "longitude": 77.032219,
+      "position": [
+        28.618984,
+        77.032219
+      ],
+      "speed": 18.8,
+      "trip_id": "2316_23_57_105",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8845",
+      "vehicle_id": "DL1PD8845",
+      "routeId": "1914",
+      "route": "Route 1914",
+      "latitude": 28.640285,
+      "longitude": 77.240913,
+      "position": [
+        28.640285,
+        77.240913
+      ],
+      "speed": 5.5,
+      "trip_id": "1914_23_45",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD4888",
+      "vehicle_id": "DL1PD4888",
+      "routeId": "30",
+      "route": "Route 30",
+      "latitude": 28.735264,
+      "longitude": 77.005745,
+      "position": [
+        28.735264,
+        77.005745
+      ],
+      "speed": 2.5,
+      "trip_id": "30_23_39_5507",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD6978",
+      "vehicle_id": "DL1PD6978",
+      "routeId": "1484",
+      "route": "Route 1484",
+      "latitude": 28.647188,
+      "longitude": 77.314713,
+      "position": [
+        28.647188,
+        77.314713
+      ],
+      "speed": 9.0,
+      "trip_id": "1484_23_57_8043",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD4537",
+      "vehicle_id": "DL1PD4537",
+      "routeId": "218",
+      "route": "Route 218",
+      "latitude": 28.808985,
+      "longitude": 77.128624,
+      "position": [
+        28.808985,
+        77.128624
+      ],
+      "speed": 3.5,
+      "trip_id": "218_22_36_7799",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3709",
+      "vehicle_id": "DL51EV3709",
+      "routeId": "69",
+      "route": "Route 69",
+      "latitude": 28.70727,
+      "longitude": 77.173477,
+      "position": [
+        28.70727,
+        77.173477
+      ],
+      "speed": 1.3,
+      "trip_id": "69_23_51_8667",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD5473",
+      "vehicle_id": "DL1PD5473",
+      "routeId": "101",
+      "route": "Route 101",
+      "latitude": 28.735052,
+      "longitude": 77.156448,
+      "position": [
+        28.735052,
+        77.156448
+      ],
+      "speed": 3.4,
+      "trip_id": "101_19_14_1706",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9394",
+      "vehicle_id": "DL1PD9394",
+      "routeId": "1412",
+      "route": "Route 1412",
+      "latitude": 28.724924,
+      "longitude": 77.180359,
+      "position": [
+        28.724924,
+        77.180359
+      ],
+      "speed": 4.1,
+      "trip_id": "1412_20_55",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5520",
+      "vehicle_id": "DL1PD5520",
+      "routeId": "2160",
+      "route": "Route 2160",
+      "latitude": 28.849211,
+      "longitude": 77.098343,
+      "position": [
+        28.849211,
+        77.098343
+      ],
+      "speed": 17.9,
+      "trip_id": "2160_21_52_1968",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8746",
+      "vehicle_id": "DL1PD8746",
+      "routeId": "1988",
+      "route": "Route 1988",
+      "latitude": 28.560375,
+      "longitude": 77.262436,
+      "position": [
+        28.560375,
+        77.262436
+      ],
+      "speed": 17.5,
+      "trip_id": "1988_23_57_6642",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD9074",
+      "vehicle_id": "DL51GD9074",
+      "routeId": "2564",
+      "route": "Route 2564",
+      "latitude": 28.717222,
+      "longitude": 77.101151,
+      "position": [
+        28.717222,
+        77.101151
+      ],
+      "speed": 2.0,
+      "trip_id": "2564_23_27_7718",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8757",
+      "vehicle_id": "DL1PD8757",
+      "routeId": "2980",
+      "route": "Route 2980",
+      "latitude": 28.612522,
+      "longitude": 77.018089,
+      "position": [
+        28.612522,
+        77.018089
+      ],
+      "speed": 1.3,
+      "trip_id": "2980_23_41_4333",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD4907",
+      "vehicle_id": "DL1PD4907",
+      "routeId": "278",
+      "route": "Route 278",
+      "latitude": 28.801834,
+      "longitude": 77.044853,
+      "position": [
+        28.801834,
+        77.044853
+      ],
+      "speed": 6.6,
+      "trip_id": "278_23_23_2999",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD4089",
+      "vehicle_id": "DL1PD4089",
+      "routeId": "657",
+      "route": "Route 657",
+      "latitude": 28.536779,
+      "longitude": 77.098564,
+      "position": [
+        28.536779,
+        77.098564
+      ],
+      "speed": 1.5,
+      "trip_id": "657_22_46_5986",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD8922",
+      "vehicle_id": "DL51GD8922",
+      "routeId": "1484",
+      "route": "Route 1484",
+      "latitude": 28.646303,
+      "longitude": 77.315216,
+      "position": [
+        28.646303,
+        77.315216
+      ],
+      "speed": 13.6,
+      "trip_id": "1484_23_57_1421",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8590",
+      "vehicle_id": "DL1PD8590",
+      "routeId": "3648",
+      "route": "Route 3648",
+      "latitude": 28.857668,
+      "longitude": 77.094894,
+      "position": [
+        28.857668,
+        77.094894
+      ],
+      "speed": 5.6,
+      "trip_id": "3648_23_45_9507",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PE0278",
+      "vehicle_id": "DL1PE0278",
+      "routeId": "1841",
+      "route": "Route 1841",
+      "latitude": 28.61344,
+      "longitude": 77.322525,
+      "position": [
+        28.61344,
+        77.322525
+      ],
+      "speed": 16.2,
+      "trip_id": "1841_23_53_81",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD2278",
+      "vehicle_id": "DL51GD2278",
+      "routeId": "3511",
+      "route": "Route 3511",
+      "latitude": 28.599689,
+      "longitude": 76.894646,
+      "position": [
+        28.599689,
+        76.894646
+      ],
+      "speed": 1.6,
+      "trip_id": "3511_23_55",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD2641",
+      "vehicle_id": "DL51GD2641",
+      "routeId": "2734",
+      "route": "Route 2734",
+      "latitude": 28.639755,
+      "longitude": 77.246361,
+      "position": [
+        28.639755,
+        77.246361
+      ],
+      "speed": 16.2,
+      "trip_id": "2734_23_48_389",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7209",
+      "vehicle_id": "DL1PD7209",
+      "routeId": "1761",
+      "route": "Route 1761",
+      "latitude": 28.70656,
+      "longitude": 77.263763,
+      "position": [
+        28.70656,
+        77.263763
+      ],
+      "speed": 10.2,
+      "trip_id": "1761_23_19_3059",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1831",
+      "vehicle_id": "DL51EV1831",
+      "routeId": "1657",
+      "route": "Route 1657",
+      "latitude": 28.702438,
+      "longitude": 77.194748,
+      "position": [
+        28.702438,
+        77.194748
+      ],
+      "speed": 2.1,
+      "trip_id": "1657_23_14_4507",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD5587",
+      "vehicle_id": "DL1PD5587",
+      "routeId": "1548",
+      "route": "Route 1548",
+      "latitude": 28.808964,
+      "longitude": 77.051643,
+      "position": [
+        28.808964,
+        77.051643
+      ],
+      "speed": 9.9,
+      "trip_id": "1548_21_34_5585",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV0979",
+      "vehicle_id": "DL51EV0979",
+      "routeId": "1496",
+      "route": "Route 1496",
+      "latitude": 28.621763,
+      "longitude": 77.195175,
+      "position": [
+        28.621763,
+        77.195175
+      ],
+      "speed": 4.3,
+      "trip_id": "1496_23_30",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51GD3167",
+      "vehicle_id": "DL51GD3167",
+      "routeId": "2098",
+      "route": "Route 2098",
+      "latitude": 28.601728,
+      "longitude": 76.98819,
+      "position": [
+        28.601728,
+        76.98819
+      ],
+      "speed": 1.8,
+      "trip_id": "2098_23_57_6002",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9327",
+      "vehicle_id": "DL1PD9327",
+      "routeId": "411",
+      "route": "Route 411",
+      "latitude": 28.674269,
+      "longitude": 77.285591,
+      "position": [
+        28.674269,
+        77.285591
+      ],
+      "speed": 2.9,
+      "trip_id": "411_23_25_3399",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD0113",
+      "vehicle_id": "DL51GD0113",
+      "routeId": "3213",
+      "route": "Route 3213",
+      "latitude": 28.628233,
+      "longitude": 77.278381,
+      "position": [
+        28.628233,
+        77.278381
+      ],
+      "speed": 14.1,
+      "trip_id": "3213_23_33_4286",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PE0371",
+      "vehicle_id": "DL1PE0371",
+      "routeId": "1878",
+      "route": "Route 1878",
+      "latitude": 28.616201,
+      "longitude": 77.318771,
+      "position": [
+        28.616201,
+        77.318771
+      ],
+      "speed": 3.8,
+      "trip_id": "1878_23_25_5094",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9452",
+      "vehicle_id": "DL1PD9452",
+      "routeId": "1551",
+      "route": "Route 1551",
+      "latitude": 28.625456,
+      "longitude": 77.33181,
+      "position": [
+        28.625456,
+        77.33181
+      ],
+      "speed": 2.6,
+      "trip_id": "1551_23_57_7550",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3165",
+      "vehicle_id": "DL51EV3165",
+      "routeId": "2694",
+      "route": "Route 2694",
+      "latitude": 28.668713,
+      "longitude": 77.228035,
+      "position": [
+        28.668713,
+        77.228035
+      ],
+      "speed": 10.7,
+      "trip_id": "2694_21_34_322",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51GD9295",
+      "vehicle_id": "DL51GD9295",
+      "routeId": "2582",
+      "route": "Route 2582",
+      "latitude": 28.56703,
+      "longitude": 77.127449,
+      "position": [
+        28.56703,
+        77.127449
+      ],
+      "speed": 5.6,
+      "trip_id": "2582_23_53_6798",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8081",
+      "vehicle_id": "DL1PD8081",
+      "routeId": "1738",
+      "route": "Route 1738",
+      "latitude": 28.669386,
+      "longitude": 77.092667,
+      "position": [
+        28.669386,
+        77.092667
+      ],
+      "speed": 14.9,
+      "trip_id": "1738_23_56_5206",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7863",
+      "vehicle_id": "DL1PD7863",
+      "routeId": "1720",
+      "route": "Route 1720",
+      "latitude": 28.653893,
+      "longitude": 77.154747,
+      "position": [
+        28.653893,
+        77.154747
+      ],
+      "speed": 19.7,
+      "trip_id": "1720_22_25",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8060",
+      "vehicle_id": "DL1PD8060",
+      "routeId": "3099",
+      "route": "Route 3099",
+      "latitude": 28.627441,
+      "longitude": 76.994972,
+      "position": [
+        28.627441,
+        76.994972
+      ],
+      "speed": 3.5,
+      "trip_id": "3099_23_24_4785",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5588",
+      "vehicle_id": "DL1PD5588",
+      "routeId": "2098",
+      "route": "Route 2098",
+      "latitude": 28.564255,
+      "longitude": 77.000824,
+      "position": [
+        28.564255,
+        77.000824
+      ],
+      "speed": 8.5,
+      "trip_id": "2098_23_00",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1762",
+      "vehicle_id": "DL51EV1762",
+      "routeId": "1977",
+      "route": "Route 1977",
+      "latitude": 28.65196,
+      "longitude": 77.30658,
+      "position": [
+        28.65196,
+        77.30658
+      ],
+      "speed": 2.0,
+      "trip_id": "1977_22_55",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD7271",
+      "vehicle_id": "DL1PD7271",
+      "routeId": "3422",
+      "route": "Route 3422",
+      "latitude": 28.704523,
+      "longitude": 77.257751,
+      "position": [
+        28.704523,
+        77.257751
+      ],
+      "speed": 18.4,
+      "trip_id": "3422_23_26_7322",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1704",
+      "vehicle_id": "DL51EV1704",
+      "routeId": "2694",
+      "route": "Route 2694",
+      "latitude": 28.671911,
+      "longitude": 77.237076,
+      "position": [
+        28.671911,
+        77.237076
+      ],
+      "speed": 1.4,
+      "trip_id": "2694_23_25",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD8665",
+      "vehicle_id": "DL1PD8665",
+      "routeId": "116",
+      "route": "Route 116",
+      "latitude": 28.864832,
+      "longitude": 77.098587,
+      "position": [
+        28.864832,
+        77.098587
+      ],
+      "speed": 7.8,
+      "trip_id": "116_23_00",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8356",
+      "vehicle_id": "DL1PD8356",
+      "routeId": "2986",
+      "route": "Route 2986",
+      "latitude": 28.556662,
+      "longitude": 77.094154,
+      "position": [
+        28.556662,
+        77.094154
+      ],
+      "speed": 3.1,
+      "trip_id": "2986_23_30",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD9696",
+      "vehicle_id": "DL51GD9696",
+      "routeId": "1459",
+      "route": "Route 1459",
+      "latitude": 28.662941,
+      "longitude": 77.232979,
+      "position": [
+        28.662941,
+        77.232979
+      ],
+      "speed": 2.7,
+      "trip_id": "1459_22_55_8068",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1665",
+      "vehicle_id": "DL51EV1665",
+      "routeId": "1692",
+      "route": "Route 1692",
+      "latitude": 28.699854,
+      "longitude": 77.298828,
+      "position": [
+        28.699854,
+        77.298828
+      ],
+      "speed": 2.0,
+      "trip_id": "1692_23_38_348",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD9069",
+      "vehicle_id": "DL1PD9069",
+      "routeId": "2558",
+      "route": "Route 2558",
+      "latitude": 28.726339,
+      "longitude": 77.099747,
+      "position": [
+        28.726339,
+        77.099747
+      ],
+      "speed": 3.8,
+      "trip_id": "2558_22_50",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5725",
+      "vehicle_id": "DL1PD5725",
+      "routeId": "2487",
+      "route": "Route 2487",
+      "latitude": 28.63765,
+      "longitude": 76.983353,
+      "position": [
+        28.63765,
+        76.983353
+      ],
+      "speed": 10.9,
+      "trip_id": "2487_21_11_7226",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1744",
+      "vehicle_id": "DL51EV1744",
+      "routeId": "1707",
+      "route": "Route 1707",
+      "latitude": 28.616388,
+      "longitude": 77.318321,
+      "position": [
+        28.616388,
+        77.318321
+      ],
+      "speed": 4.6,
+      "trip_id": "1707_23_24_2808",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD8035",
+      "vehicle_id": "DL1PD8035",
+      "routeId": "3020",
+      "route": "Route 3020",
+      "latitude": 28.681278,
+      "longitude": 77.155838,
+      "position": [
+        28.681278,
+        77.155838
+      ],
+      "speed": 10.0,
+      "trip_id": "3020_23_18_2010",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9524",
+      "vehicle_id": "DL1PD9524",
+      "routeId": "1749",
+      "route": "Route 1749",
+      "latitude": 28.670784,
+      "longitude": 77.158951,
+      "position": [
+        28.670784,
+        77.158951
+      ],
+      "speed": 5.5,
+      "trip_id": "1749_22_57_1126",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD8568",
+      "vehicle_id": "DL51GD8568",
+      "routeId": "2383",
+      "route": "Route 2383",
+      "latitude": 28.681534,
+      "longitude": 77.14418,
+      "position": [
+        28.681534,
+        77.14418
+      ],
+      "speed": 4.1,
+      "trip_id": "2383_23_45",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8942",
+      "vehicle_id": "DL1PD8942",
+      "routeId": "1995",
+      "route": "Route 1995",
+      "latitude": 28.600952,
+      "longitude": 77.221649,
+      "position": [
+        28.600952,
+        77.221649
+      ],
+      "speed": 1.4,
+      "trip_id": "1995_23_36_4541",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8493",
+      "vehicle_id": "DL1PD8493",
+      "routeId": "1697",
+      "route": "Route 1697",
+      "latitude": 28.660776,
+      "longitude": 77.146011,
+      "position": [
+        28.660776,
+        77.146011
+      ],
+      "speed": 13.0,
+      "trip_id": "1697_22_59_5888",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV9745",
+      "vehicle_id": "DL51EV9745",
+      "routeId": "2713",
+      "route": "Route 2713",
+      "latitude": 28.672871,
+      "longitude": 77.146065,
+      "position": [
+        28.672871,
+        77.146065
+      ],
+      "speed": 9.3,
+      "trip_id": "2713_23_27_4869",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51GD2994",
+      "vehicle_id": "DL51GD2994",
+      "routeId": "2054",
+      "route": "Route 2054",
+      "latitude": 28.610331,
+      "longitude": 76.981461,
+      "position": [
+        28.610331,
+        76.981461
+      ],
+      "speed": 3.7,
+      "trip_id": "2054_22_49_6281",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD6928",
+      "vehicle_id": "DL1PD6928",
+      "routeId": "3407",
+      "route": "Route 3407",
+      "latitude": 28.707621,
+      "longitude": 77.246475,
+      "position": [
+        28.707621,
+        77.246475
+      ],
+      "speed": 3.1,
+      "trip_id": "3407_23_46_5304",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV0934",
+      "vehicle_id": "DL51EV0934",
+      "routeId": "1499",
+      "route": "Route 1499",
+      "latitude": 28.627066,
+      "longitude": 77.070938,
+      "position": [
+        28.627066,
+        77.070938
+      ],
+      "speed": 3.1,
+      "trip_id": "1499_23_17_2340",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD7833",
+      "vehicle_id": "DL1PD7833",
+      "routeId": "3415",
+      "route": "Route 3415",
+      "latitude": 28.671831,
+      "longitude": 77.168266,
+      "position": [
+        28.671831,
+        77.168266
+      ],
+      "speed": 18.1,
+      "trip_id": "3415_21_05",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5211",
+      "vehicle_id": "DL1PD5211",
+      "routeId": "3503",
+      "route": "Route 3503",
+      "latitude": 28.608599,
+      "longitude": 76.957878,
+      "position": [
+        28.608599,
+        76.957878
+      ],
+      "speed": 4.9,
+      "trip_id": "3503_23_57_8226",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5161",
+      "vehicle_id": "DL1PD5161",
+      "routeId": "882",
+      "route": "Route 882",
+      "latitude": 28.609537,
+      "longitude": 76.985413,
+      "position": [
+        28.609537,
+        76.985413
+      ],
+      "speed": 4.4,
+      "trip_id": "882_23_15_6756",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5635",
+      "vehicle_id": "DL1PD5635",
+      "routeId": "2164",
+      "route": "Route 2164",
+      "latitude": 28.621696,
+      "longitude": 77.094193,
+      "position": [
+        28.621696,
+        77.094193
+      ],
+      "speed": 2.1,
+      "trip_id": "2164_23_36_22",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1296",
+      "vehicle_id": "DL51EV1296",
+      "routeId": "2134",
+      "route": "Route 2134",
+      "latitude": 28.667944,
+      "longitude": 77.224884,
+      "position": [
+        28.667944,
+        77.224884
+      ],
+      "speed": 20.1,
+      "trip_id": "2134_22_35",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD5497",
+      "vehicle_id": "DL1PD5497",
+      "routeId": "2175",
+      "route": "Route 2175",
+      "latitude": 28.559721,
+      "longitude": 77.071548,
+      "position": [
+        28.559721,
+        77.071548
+      ],
+      "speed": 14.3,
+      "trip_id": "2175_22_56",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV9609",
+      "vehicle_id": "DL51EV9609",
+      "routeId": "1920",
+      "route": "Route 1920",
+      "latitude": 28.548561,
+      "longitude": 77.262772,
+      "position": [
+        28.548561,
+        77.262772
+      ],
+      "speed": 2.4,
+      "trip_id": "1920_23_11_2538",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD9679",
+      "vehicle_id": "DL1PD9679",
+      "routeId": "2417",
+      "route": "Route 2417",
+      "latitude": 28.679876,
+      "longitude": 77.092728,
+      "position": [
+        28.679876,
+        77.092728
+      ],
+      "speed": 5.1,
+      "trip_id": "2417_23_44_7798",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD6861",
+      "vehicle_id": "DL1PD6861",
+      "routeId": "1727",
+      "route": "Route 1727",
+      "latitude": 28.660444,
+      "longitude": 77.223686,
+      "position": [
+        28.660444,
+        77.223686
+      ],
+      "speed": 15.2,
+      "trip_id": "1727_23_05",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3535",
+      "vehicle_id": "DL51EV3535",
+      "routeId": "1497",
+      "route": "Route 1497",
+      "latitude": 28.668392,
+      "longitude": 77.227974,
+      "position": [
+        28.668392,
+        77.227974
+      ],
+      "speed": 20.6,
+      "trip_id": "1497_23_18",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PE0213",
+      "vehicle_id": "DL1PE0213",
+      "routeId": "119",
+      "route": "Route 119",
+      "latitude": 28.801228,
+      "longitude": 77.138847,
+      "position": [
+        28.801228,
+        77.138847
+      ],
+      "speed": 18.0,
+      "trip_id": "119_23_26_346",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD8790",
+      "vehicle_id": "DL51GD8790",
+      "routeId": "1484",
+      "route": "Route 1484",
+      "latitude": 28.625761,
+      "longitude": 77.065407,
+      "position": [
+        28.625761,
+        77.065407
+      ],
+      "speed": 17.5,
+      "trip_id": "1484_22_20",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD8789",
+      "vehicle_id": "DL51GD8789",
+      "routeId": "2251",
+      "route": "Route 2251",
+      "latitude": 28.637859,
+      "longitude": 77.1465,
+      "position": [
+        28.637859,
+        77.1465
+      ],
+      "speed": 8.4,
+      "trip_id": "2251_23_49_2555",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV9794",
+      "vehicle_id": "DL51EV9794",
+      "routeId": "1928",
+      "route": "Route 1928",
+      "latitude": 28.656326,
+      "longitude": 77.23687,
+      "position": [
+        28.656326,
+        77.23687
+      ],
+      "speed": 15.8,
+      "trip_id": "1928_23_56_8184",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51EV1779",
+      "vehicle_id": "DL51EV1779",
+      "routeId": "2065",
+      "route": "Route 2065",
+      "latitude": 28.522013,
+      "longitude": 77.082321,
+      "position": [
+        28.522013,
+        77.082321
+      ],
+      "speed": 9.9,
+      "trip_id": "2065_23_12",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51EV3197",
+      "vehicle_id": "DL51EV3197",
+      "routeId": "1498",
+      "route": "Route 1498",
+      "latitude": 28.671593,
+      "longitude": 77.235909,
+      "position": [
+        28.671593,
+        77.235909
+      ],
+      "speed": 3.3,
+      "trip_id": "1498_23_54_5866",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51GD8936",
+      "vehicle_id": "DL51GD8936",
+      "routeId": "1487",
+      "route": "Route 1487",
+      "latitude": 28.643631,
+      "longitude": 77.224907,
+      "position": [
+        28.643631,
+        77.224907
+      ],
+      "speed": 33.5,
+      "trip_id": "1487_22_15",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3087",
+      "vehicle_id": "DL51EV3087",
+      "routeId": "1497",
+      "route": "Route 1497",
+      "latitude": 28.66803,
+      "longitude": 77.228844,
+      "position": [
+        28.66803,
+        77.228844
+      ],
+      "speed": 14.7,
+      "trip_id": "1497_22_46",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51GD2764",
+      "vehicle_id": "DL51GD2764",
+      "routeId": "2914",
+      "route": "Route 2914",
+      "latitude": 28.597698,
+      "longitude": 76.898926,
+      "position": [
+        28.597698,
+        76.898926
+      ],
+      "speed": 6.5,
+      "trip_id": "2914_22_54_9999",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8767",
+      "vehicle_id": "DL1PD8767",
+      "routeId": "1914",
+      "route": "Route 1914",
+      "latitude": 28.524683,
+      "longitude": 77.230118,
+      "position": [
+        28.524683,
+        77.230118
+      ],
+      "speed": 7.4,
+      "trip_id": "1914_23_17_1083",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1602",
+      "vehicle_id": "DL51EV1602",
+      "routeId": "1693",
+      "route": "Route 1693",
+      "latitude": 28.690245,
+      "longitude": 77.291878,
+      "position": [
+        28.690245,
+        77.291878
+      ],
+      "speed": 3.6,
+      "trip_id": "1693_23_25",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD7916",
+      "vehicle_id": "DL1PD7916",
+      "routeId": "2208",
+      "route": "Route 2208",
+      "latitude": 28.593094,
+      "longitude": 77.079697,
+      "position": [
+        28.593094,
+        77.079697
+      ],
+      "speed": 16.1,
+      "trip_id": "2208_23_10",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3130",
+      "vehicle_id": "DL51EV3130",
+      "routeId": "1497",
+      "route": "Route 1497",
+      "latitude": 28.668514,
+      "longitude": 77.227722,
+      "position": [
+        28.668514,
+        77.227722
+      ],
+      "speed": 11.7,
+      "trip_id": "1497_23_21_3994",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD9947",
+      "vehicle_id": "DL1PD9947",
+      "routeId": "1786",
+      "route": "Route 1786",
+      "latitude": 28.698742,
+      "longitude": 77.321968,
+      "position": [
+        28.698742,
+        77.321968
+      ],
+      "speed": 10.2,
+      "trip_id": "1786_23_40",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD2197",
+      "vehicle_id": "DL51GD2197",
+      "routeId": "1628",
+      "route": "Route 1628",
+      "latitude": 28.735424,
+      "longitude": 77.15696,
+      "position": [
+        28.735424,
+        77.15696
+      ],
+      "speed": 16.9,
+      "trip_id": "1628_23_07_3786",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV2518",
+      "vehicle_id": "DL51EV2518",
+      "routeId": "1631",
+      "route": "Route 1631",
+      "latitude": 28.703596,
+      "longitude": 77.168358,
+      "position": [
+        28.703596,
+        77.168358
+      ],
+      "speed": 6.8,
+      "trip_id": "1631_21_30",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD9473",
+      "vehicle_id": "DL1PD9473",
+      "routeId": "3425",
+      "route": "Route 3425",
+      "latitude": 28.647995,
+      "longitude": 77.24012,
+      "position": [
+        28.647995,
+        77.24012
+      ],
+      "speed": 19.2,
+      "trip_id": "3425_23_46_13",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD9218",
+      "vehicle_id": "DL51GD9218",
+      "routeId": "2364",
+      "route": "Route 2364",
+      "latitude": 28.6255,
+      "longitude": 77.065613,
+      "position": [
+        28.6255,
+        77.065613
+      ],
+      "speed": 19.6,
+      "trip_id": "2364_23_03_6831",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD9234",
+      "vehicle_id": "DL51GD9234",
+      "routeId": "2583",
+      "route": "Route 2583",
+      "latitude": 28.556845,
+      "longitude": 77.091011,
+      "position": [
+        28.556845,
+        77.091011
+      ],
+      "speed": 2.7,
+      "trip_id": "2583_23_50",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3552",
+      "vehicle_id": "DL51EV3552",
+      "routeId": "1853",
+      "route": "Route 1853",
+      "latitude": 28.693478,
+      "longitude": 77.154427,
+      "position": [
+        28.693478,
+        77.154427
+      ],
+      "speed": 9.8,
+      "trip_id": "1853_23_54_4156",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51EV3164",
+      "vehicle_id": "DL51EV3164",
+      "routeId": "2048",
+      "route": "Route 2048",
+      "latitude": 28.624868,
+      "longitude": 77.304062,
+      "position": [
+        28.624868,
+        77.304062
+      ],
+      "speed": 2.0,
+      "trip_id": "2048_23_02_9885",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD9592",
+      "vehicle_id": "DL1PD9592",
+      "routeId": "2416",
+      "route": "Route 2416",
+      "latitude": 28.679771,
+      "longitude": 77.094223,
+      "position": [
+        28.679771,
+        77.094223
+      ],
+      "speed": 13.8,
+      "trip_id": "2416_23_44_8281",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3280",
+      "vehicle_id": "DL51EV3280",
+      "routeId": "1631",
+      "route": "Route 1631",
+      "latitude": 28.702482,
+      "longitude": 77.166725,
+      "position": [
+        28.702482,
+        77.166725
+      ],
+      "speed": 11.5,
+      "trip_id": "1631_22_48_339",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD7045",
+      "vehicle_id": "DL1PD7045",
+      "routeId": "2065",
+      "route": "Route 2065",
+      "latitude": 28.615473,
+      "longitude": 77.284454,
+      "position": [
+        28.615473,
+        77.284454
+      ],
+      "speed": 4.4,
+      "trip_id": "2065_22_36_2848",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV8509",
+      "vehicle_id": "DL51EV8509",
+      "routeId": "1473",
+      "route": "Route 1473",
+      "latitude": 28.651161,
+      "longitude": 77.238159,
+      "position": [
+        28.651161,
+        77.238159
+      ],
+      "speed": 2.2,
+      "trip_id": "1473_23_49_4060",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51EV2533",
+      "vehicle_id": "DL51EV2533",
+      "routeId": "3677",
+      "route": "Route 3677",
+      "latitude": 28.646523,
+      "longitude": 77.315231,
+      "position": [
+        28.646523,
+        77.315231
+      ],
+      "speed": 35.2,
+      "trip_id": "3677_23_52_4993",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51GD9014",
+      "vehicle_id": "DL51GD9014",
+      "routeId": "2552",
+      "route": "Route 2552",
+      "latitude": 28.716253,
+      "longitude": 77.112785,
+      "position": [
+        28.716253,
+        77.112785
+      ],
+      "speed": 18.6,
+      "trip_id": "2552_23_46_4245",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8577",
+      "vehicle_id": "DL1PD8577",
+      "routeId": "3341",
+      "route": "Route 3341",
+      "latitude": 28.541862,
+      "longitude": 77.262909,
+      "position": [
+        28.541862,
+        77.262909
+      ],
+      "speed": 1.3,
+      "trip_id": "3341_23_53_8142",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV0834",
+      "vehicle_id": "DL51EV0834",
+      "routeId": "3399",
+      "route": "Route 3399",
+      "latitude": 28.699682,
+      "longitude": 77.202095,
+      "position": [
+        28.699682,
+        77.202095
+      ],
+      "speed": 6.1,
+      "trip_id": "3399_23_57_2387",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD7227",
+      "vehicle_id": "DL1PD7227",
+      "routeId": "514",
+      "route": "Route 514",
+      "latitude": 28.539295,
+      "longitude": 77.212021,
+      "position": [
+        28.539295,
+        77.212021
+      ],
+      "speed": 8.6,
+      "trip_id": "514_23_45_8404",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5602",
+      "vehicle_id": "DL1PD5602",
+      "routeId": "313",
+      "route": "Route 313",
+      "latitude": 28.769617,
+      "longitude": 77.063622,
+      "position": [
+        28.769617,
+        77.063622
+      ],
+      "speed": 2.5,
+      "trip_id": "313_22_26_2900",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD9605",
+      "vehicle_id": "DL51GD9605",
+      "routeId": "2229",
+      "route": "Route 2229",
+      "latitude": 28.554197,
+      "longitude": 77.178314,
+      "position": [
+        28.554197,
+        77.178314
+      ],
+      "speed": 6.4,
+      "trip_id": "2229_23_38_3225",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7993",
+      "vehicle_id": "DL1PD7993",
+      "routeId": "3048",
+      "route": "Route 3048",
+      "latitude": 28.657393,
+      "longitude": 77.14933,
+      "position": [
+        28.657393,
+        77.14933
+      ],
+      "speed": 27.5,
+      "trip_id": "3048_23_15",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9104",
+      "vehicle_id": "DL1PD9104",
+      "routeId": "2735",
+      "route": "Route 2735",
+      "latitude": 28.639277,
+      "longitude": 77.248726,
+      "position": [
+        28.639277,
+        77.248726
+      ],
+      "speed": 4.2,
+      "trip_id": "2735_23_48_1242",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8021",
+      "vehicle_id": "DL1PD8021",
+      "routeId": "3544",
+      "route": "Route 3544",
+      "latitude": 28.611206,
+      "longitude": 76.979698,
+      "position": [
+        28.611206,
+        76.979698
+      ],
+      "speed": 26.6,
+      "trip_id": "3544_23_58_1759",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7627",
+      "vehicle_id": "DL1PD7627",
+      "routeId": "3655",
+      "route": "Route 3655",
+      "latitude": 28.69698,
+      "longitude": 77.282043,
+      "position": [
+        28.69698,
+        77.282043
+      ],
+      "speed": 5.2,
+      "trip_id": "3655_23_49_1516",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5556",
+      "vehicle_id": "DL1PD5556",
+      "routeId": "1151",
+      "route": "Route 1151",
+      "latitude": 28.71323,
+      "longitude": 77.079391,
+      "position": [
+        28.71323,
+        77.079391
+      ],
+      "speed": 1.8,
+      "trip_id": "1151_22_48_4319",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD2336",
+      "vehicle_id": "DL51GD2336",
+      "routeId": "3201",
+      "route": "Route 3201",
+      "latitude": 28.687901,
+      "longitude": 77.254158,
+      "position": [
+        28.687901,
+        77.254158
+      ],
+      "speed": 5.1,
+      "trip_id": "3201_23_23",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9569",
+      "vehicle_id": "DL1PD9569",
+      "routeId": "1759",
+      "route": "Route 1759",
+      "latitude": 28.703262,
+      "longitude": 77.13018,
+      "position": [
+        28.703262,
+        77.13018
+      ],
+      "speed": 20.2,
+      "trip_id": "1759_22_17_4650",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV4173",
+      "vehicle_id": "DL51EV4173",
+      "routeId": "1598",
+      "route": "Route 1598",
+      "latitude": 28.827431,
+      "longitude": 77.131355,
+      "position": [
+        28.827431,
+        77.131355
+      ],
+      "speed": 1.0,
+      "trip_id": "1598_22_16_3320",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD5575",
+      "vehicle_id": "DL1PD5575",
+      "routeId": "940",
+      "route": "Route 940",
+      "latitude": 28.603123,
+      "longitude": 76.928307,
+      "position": [
+        28.603123,
+        76.928307
+      ],
+      "speed": 1.3,
+      "trip_id": "940_23_50",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD3241",
+      "vehicle_id": "DL51GD3241",
+      "routeId": "1839",
+      "route": "Route 1839",
+      "latitude": 28.580837,
+      "longitude": 77.315048,
+      "position": [
+        28.580837,
+        77.315048
+      ],
+      "speed": 8.3,
+      "trip_id": "1839_23_25_9504",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV8761",
+      "vehicle_id": "DL51EV8761",
+      "routeId": "1967",
+      "route": "Route 1967",
+      "latitude": 28.54003,
+      "longitude": 77.262192,
+      "position": [
+        28.54003,
+        77.262192
+      ],
+      "speed": 12.9,
+      "trip_id": "1967_23_48_388",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51GD2689",
+      "vehicle_id": "DL51GD2689",
+      "routeId": "1463",
+      "route": "Route 1463",
+      "latitude": 28.678059,
+      "longitude": 77.107597,
+      "position": [
+        28.678059,
+        77.107597
+      ],
+      "speed": 1.4,
+      "trip_id": "1463_23_51_4177",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3516",
+      "vehicle_id": "DL51EV3516",
+      "routeId": "1497",
+      "route": "Route 1497",
+      "latitude": 28.667986,
+      "longitude": 77.228905,
+      "position": [
+        28.667986,
+        77.228905
+      ],
+      "speed": 15.6,
+      "trip_id": "1497_23_02",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD5147",
+      "vehicle_id": "DL1PD5147",
+      "routeId": "869",
+      "route": "Route 869",
+      "latitude": 28.608437,
+      "longitude": 76.955444,
+      "position": [
+        28.608437,
+        76.955444
+      ],
+      "speed": 2.4,
+      "trip_id": "869_23_59_4142",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7987",
+      "vehicle_id": "DL1PD7987",
+      "routeId": "3210",
+      "route": "Route 3210",
+      "latitude": 28.75695,
+      "longitude": 77.066162,
+      "position": [
+        28.75695,
+        77.066162
+      ],
+      "speed": 1.2,
+      "trip_id": "3210_23_51_511",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9746",
+      "vehicle_id": "DL1PD9746",
+      "routeId": "1693",
+      "route": "Route 1693",
+      "latitude": 28.692039,
+      "longitude": 77.328148,
+      "position": [
+        28.692039,
+        77.328148
+      ],
+      "speed": 1.6,
+      "trip_id": "1693_21_44",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7728",
+      "vehicle_id": "DL1PD7728",
+      "routeId": "375",
+      "route": "Route 375",
+      "latitude": 28.614748,
+      "longitude": 77.321548,
+      "position": [
+        28.614748,
+        77.321548
+      ],
+      "speed": 2.7,
+      "trip_id": "375_23_00",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD6974",
+      "vehicle_id": "DL1PD6974",
+      "routeId": "2140",
+      "route": "Route 2140",
+      "latitude": 28.674454,
+      "longitude": 77.286377,
+      "position": [
+        28.674454,
+        77.286377
+      ],
+      "speed": 1.9,
+      "trip_id": "2140_22_43_9600",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7278",
+      "vehicle_id": "DL1PD7278",
+      "routeId": "3349",
+      "route": "Route 3349",
+      "latitude": 28.638954,
+      "longitude": 77.31823,
+      "position": [
+        28.638954,
+        77.31823
+      ],
+      "speed": 8.7,
+      "trip_id": "3349_23_56_7491",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV9750",
+      "vehicle_id": "DL51EV9750",
+      "routeId": "2713",
+      "route": "Route 2713",
+      "latitude": 28.673048,
+      "longitude": 77.14373,
+      "position": [
+        28.673048,
+        77.14373
+      ],
+      "speed": 10.5,
+      "trip_id": "2713_23_19_3498",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD9685",
+      "vehicle_id": "DL1PD9685",
+      "routeId": "2118",
+      "route": "Route 2118",
+      "latitude": 28.619967,
+      "longitude": 77.301254,
+      "position": [
+        28.619967,
+        77.301254
+      ],
+      "speed": 16.7,
+      "trip_id": "2118_23_54_927",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9340",
+      "vehicle_id": "DL1PD9340",
+      "routeId": "414",
+      "route": "Route 414",
+      "latitude": 28.637712,
+      "longitude": 77.289024,
+      "position": [
+        28.637712,
+        77.289024
+      ],
+      "speed": 4.1,
+      "trip_id": "414_23_25",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7792",
+      "vehicle_id": "DL1PD7792",
+      "routeId": "3506",
+      "route": "Route 3506",
+      "latitude": 28.65369,
+      "longitude": 77.154976,
+      "position": [
+        28.65369,
+        77.154976
+      ],
+      "speed": 17.0,
+      "trip_id": "3506_23_49_6435",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7883",
+      "vehicle_id": "DL1PD7883",
+      "routeId": "2986",
+      "route": "Route 2986",
+      "latitude": 28.577072,
+      "longitude": 77.072304,
+      "position": [
+        28.577072,
+        77.072304
+      ],
+      "speed": 2.0,
+      "trip_id": "2986_23_11_4466",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7077",
+      "vehicle_id": "DL1PD7077",
+      "routeId": "1484",
+      "route": "Route 1484",
+      "latitude": 28.636284,
+      "longitude": 77.31134,
+      "position": [
+        28.636284,
+        77.31134
+      ],
+      "speed": 3.9,
+      "trip_id": "1484_22_10",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD3188",
+      "vehicle_id": "DL51GD3188",
+      "routeId": "2543",
+      "route": "Route 2543",
+      "latitude": 28.614782,
+      "longitude": 76.981361,
+      "position": [
+        28.614782,
+        76.981361
+      ],
+      "speed": 19.3,
+      "trip_id": "2543_23_52_2202",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1275",
+      "vehicle_id": "DL51EV1275",
+      "routeId": "2182",
+      "route": "Route 2182",
+      "latitude": 28.663229,
+      "longitude": 77.207375,
+      "position": [
+        28.663229,
+        77.207375
+      ],
+      "speed": 1.3,
+      "trip_id": "2182_23_45",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD9280",
+      "vehicle_id": "DL1PD9280",
+      "routeId": "1709",
+      "route": "Route 1709",
+      "latitude": 28.711777,
+      "longitude": 77.232208,
+      "position": [
+        28.711777,
+        77.232208
+      ],
+      "speed": 2.7,
+      "trip_id": "1709_23_25_1897",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5353",
+      "vehicle_id": "DL1PD5353",
+      "routeId": "3537",
+      "route": "Route 3537",
+      "latitude": 28.833221,
+      "longitude": 77.081177,
+      "position": [
+        28.833221,
+        77.081177
+      ],
+      "speed": 1.9,
+      "trip_id": "3537_23_56_7761",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7621",
+      "vehicle_id": "DL1PD7621",
+      "routeId": "2206",
+      "route": "Route 2206",
+      "latitude": 28.639294,
+      "longitude": 77.295845,
+      "position": [
+        28.639294,
+        77.295845
+      ],
+      "speed": 11.2,
+      "trip_id": "2206_22_55",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3721",
+      "vehicle_id": "DL51EV3721",
+      "routeId": "2117",
+      "route": "Route 2117",
+      "latitude": 28.696823,
+      "longitude": 77.156082,
+      "position": [
+        28.696823,
+        77.156082
+      ],
+      "speed": 2.8,
+      "trip_id": "2117_23_56_9004",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD7052",
+      "vehicle_id": "DL1PD7052",
+      "routeId": "2977",
+      "route": "Route 2977",
+      "latitude": 28.618275,
+      "longitude": 77.249069,
+      "position": [
+        28.618275,
+        77.249069
+      ],
+      "speed": 4.0,
+      "trip_id": "2977_23_26_4886",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3785",
+      "vehicle_id": "DL51EV3785",
+      "routeId": "1597",
+      "route": "Route 1597",
+      "latitude": 28.853113,
+      "longitude": 77.125847,
+      "position": [
+        28.853113,
+        77.125847
+      ],
+      "speed": 2.4,
+      "trip_id": "1597_23_53_365",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD9117",
+      "vehicle_id": "DL1PD9117",
+      "routeId": "2562",
+      "route": "Route 2562",
+      "latitude": 28.720602,
+      "longitude": 77.108047,
+      "position": [
+        28.720602,
+        77.108047
+      ],
+      "speed": 5.4,
+      "trip_id": "2562_23_55_1791",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7035",
+      "vehicle_id": "DL1PD7035",
+      "routeId": "1708",
+      "route": "Route 1708",
+      "latitude": 28.691835,
+      "longitude": 77.310783,
+      "position": [
+        28.691835,
+        77.310783
+      ],
+      "speed": 17.3,
+      "trip_id": "1708_23_52_2200",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV9721",
+      "vehicle_id": "DL51EV9721",
+      "routeId": "1615",
+      "route": "Route 1615",
+      "latitude": 28.649988,
+      "longitude": 77.150719,
+      "position": [
+        28.649988,
+        77.150719
+      ],
+      "speed": 6.2,
+      "trip_id": "1615_23_52_5482",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51EV3185",
+      "vehicle_id": "DL51EV3185",
+      "routeId": "1657",
+      "route": "Route 1657",
+      "latitude": 28.709112,
+      "longitude": 77.176697,
+      "position": [
+        28.709112,
+        77.176697
+      ],
+      "speed": 8.5,
+      "trip_id": "1657_22_43_1067",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD6367",
+      "vehicle_id": "DL1PD6367",
+      "routeId": "1061",
+      "route": "Route 1061",
+      "latitude": 28.585503,
+      "longitude": 76.958763,
+      "position": [
+        28.585503,
+        76.958763
+      ],
+      "speed": 2.2,
+      "trip_id": "1061_21_53_1547",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1844",
+      "vehicle_id": "DL51EV1844",
+      "routeId": "1941",
+      "route": "Route 1941",
+      "latitude": 28.696033,
+      "longitude": 77.155754,
+      "position": [
+        28.696033,
+        77.155754
+      ],
+      "speed": 14.1,
+      "trip_id": "1941_23_48_7501",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD8380",
+      "vehicle_id": "DL1PD8380",
+      "routeId": "3370",
+      "route": "Route 3370",
+      "latitude": 28.578701,
+      "longitude": 77.058823,
+      "position": [
+        28.578701,
+        77.058823
+      ],
+      "speed": 19.9,
+      "trip_id": "3370_23_00",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8463",
+      "vehicle_id": "DL1PD8463",
+      "routeId": "2264",
+      "route": "Route 2264",
+      "latitude": 28.598167,
+      "longitude": 77.063385,
+      "position": [
+        28.598167,
+        77.063385
+      ],
+      "speed": 8.3,
+      "trip_id": "2264_23_51_5421",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD4864",
+      "vehicle_id": "DL1PD4864",
+      "routeId": "568",
+      "route": "Route 568",
+      "latitude": 28.682219,
+      "longitude": 77.053337,
+      "position": [
+        28.682219,
+        77.053337
+      ],
+      "speed": 18.7,
+      "trip_id": "568_21_51_6497",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD4489",
+      "vehicle_id": "DL1PD4489",
+      "routeId": "1109",
+      "route": "Route 1109",
+      "latitude": 28.730824,
+      "longitude": 76.962151,
+      "position": [
+        28.730824,
+        76.962151
+      ],
+      "speed": 1.4,
+      "trip_id": "1109_23_56_8284",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9527",
+      "vehicle_id": "DL1PD9527",
+      "routeId": "2341",
+      "route": "Route 2341",
+      "latitude": 28.692059,
+      "longitude": 77.100639,
+      "position": [
+        28.692059,
+        77.100639
+      ],
+      "speed": 12.1,
+      "trip_id": "2341_23_51_6534",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8313",
+      "vehicle_id": "DL1PD8313",
+      "routeId": "1002",
+      "route": "Route 1002",
+      "latitude": 28.636356,
+      "longitude": 77.095367,
+      "position": [
+        28.636356,
+        77.095367
+      ],
+      "speed": 21.5,
+      "trip_id": "1002_23_45",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD8467",
+      "vehicle_id": "DL51GD8467",
+      "routeId": "2206",
+      "route": "Route 2206",
+      "latitude": 28.627094,
+      "longitude": 77.11097,
+      "position": [
+        28.627094,
+        77.11097
+      ],
+      "speed": 2.3,
+      "trip_id": "2206_23_14_9452",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8779",
+      "vehicle_id": "DL1PD8779",
+      "routeId": "1914",
+      "route": "Route 1914",
+      "latitude": 28.539642,
+      "longitude": 77.2323,
+      "position": [
+        28.539642,
+        77.2323
+      ],
+      "speed": 13.3,
+      "trip_id": "1914_23_29_2072",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1840",
+      "vehicle_id": "DL51EV1840",
+      "routeId": "1890",
+      "route": "Route 1890",
+      "latitude": 28.684204,
+      "longitude": 77.164024,
+      "position": [
+        28.684204,
+        77.164024
+      ],
+      "speed": 3.5,
+      "trip_id": "1890_22_10",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD6886",
+      "vehicle_id": "DL1PD6886",
+      "routeId": "1752",
+      "route": "Route 1752",
+      "latitude": 28.635159,
+      "longitude": 77.24086,
+      "position": [
+        28.635159,
+        77.24086
+      ],
+      "speed": 2.1,
+      "trip_id": "1752_23_11_3875",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD4086",
+      "vehicle_id": "DL51GD4086",
+      "routeId": "1410",
+      "route": "Route 1410",
+      "latitude": 28.724802,
+      "longitude": 77.180382,
+      "position": [
+        28.724802,
+        77.180382
+      ],
+      "speed": 14.8,
+      "trip_id": "1410_23_39",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7957",
+      "vehicle_id": "DL1PD7957",
+      "routeId": "2323",
+      "route": "Route 2323",
+      "latitude": 28.625256,
+      "longitude": 77.110809,
+      "position": [
+        28.625256,
+        77.110809
+      ],
+      "speed": 25.4,
+      "trip_id": "2323_23_20",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD4402",
+      "vehicle_id": "DL1PD4402",
+      "routeId": "2435",
+      "route": "Route 2435",
+      "latitude": 28.737419,
+      "longitude": 76.963516,
+      "position": [
+        28.737419,
+        76.963516
+      ],
+      "speed": 1.2,
+      "trip_id": "2435_22_47_1069",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD2068",
+      "vehicle_id": "DL51GD2068",
+      "routeId": "950",
+      "route": "Route 950",
+      "latitude": 28.604548,
+      "longitude": 76.934517,
+      "position": [
+        28.604548,
+        76.934517
+      ],
+      "speed": 1.1,
+      "trip_id": "950_23_42_1437",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV4243",
+      "vehicle_id": "DL51EV4243",
+      "routeId": "2074",
+      "route": "Route 2074",
+      "latitude": 28.512045,
+      "longitude": 77.250298,
+      "position": [
+        28.512045,
+        77.250298
+      ],
+      "speed": 14.6,
+      "trip_id": "2074_21_45",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD6900",
+      "vehicle_id": "DL1PD6900",
+      "routeId": "1484",
+      "route": "Route 1484",
+      "latitude": 28.628265,
+      "longitude": 77.261711,
+      "position": [
+        28.628265,
+        77.261711
+      ],
+      "speed": 1.3,
+      "trip_id": "1484_22_40",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD4228",
+      "vehicle_id": "DL1PD4228",
+      "routeId": "1516",
+      "route": "Route 1516",
+      "latitude": 28.825352,
+      "longitude": 76.990036,
+      "position": [
+        28.825352,
+        76.990036
+      ],
+      "speed": 6.1,
+      "trip_id": "1516_22_41_9072",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7274",
+      "vehicle_id": "DL1PD7274",
+      "routeId": "1829",
+      "route": "Route 1829",
+      "latitude": 28.692888,
+      "longitude": 77.2799,
+      "position": [
+        28.692888,
+        77.2799
+      ],
+      "speed": 15.6,
+      "trip_id": "1829_22_50",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7525",
+      "vehicle_id": "DL1PD7525",
+      "routeId": "1923",
+      "route": "Route 1923",
+      "latitude": 28.515106,
+      "longitude": 77.228844,
+      "position": [
+        28.515106,
+        77.228844
+      ],
+      "speed": 11.2,
+      "trip_id": "1923_23_16_2697",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8917",
+      "vehicle_id": "DL1PD8917",
+      "routeId": "2563",
+      "route": "Route 2563",
+      "latitude": 28.709148,
+      "longitude": 77.123665,
+      "position": [
+        28.709148,
+        77.123665
+      ],
+      "speed": 5.2,
+      "trip_id": "2563_23_21_6595",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD9729",
+      "vehicle_id": "DL51GD9729",
+      "routeId": "1515",
+      "route": "Route 1515",
+      "latitude": 28.672256,
+      "longitude": 77.225861,
+      "position": [
+        28.672256,
+        77.225861
+      ],
+      "speed": 5.2,
+      "trip_id": "1515_23_11",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5759",
+      "vehicle_id": "DL1PD5759",
+      "routeId": "869",
+      "route": "Route 869",
+      "latitude": 28.610592,
+      "longitude": 76.941116,
+      "position": [
+        28.610592,
+        76.941116
+      ],
+      "speed": 3.6,
+      "trip_id": "869_23_36_8066",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1447",
+      "vehicle_id": "DL51EV1447",
+      "routeId": "2742",
+      "route": "Route 2742",
+      "latitude": 28.65526,
+      "longitude": 77.319633,
+      "position": [
+        28.65526,
+        77.319633
+      ],
+      "speed": 1.8,
+      "trip_id": "2742_23_55_4705",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51EV0203",
+      "vehicle_id": "DL51EV0203",
+      "routeId": "1488",
+      "route": "Route 1488",
+      "latitude": 28.694469,
+      "longitude": 77.104721,
+      "position": [
+        28.694469,
+        77.104721
+      ],
+      "speed": 17.1,
+      "trip_id": "1488_23_05_4083",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD6979",
+      "vehicle_id": "DL1PD6979",
+      "routeId": "1484",
+      "route": "Route 1484",
+      "latitude": 28.642614,
+      "longitude": 77.22377,
+      "position": [
+        28.642614,
+        77.22377
+      ],
+      "speed": 13.6,
+      "trip_id": "1484_22_54_6359",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8891",
+      "vehicle_id": "DL1PD8891",
+      "routeId": "1913",
+      "route": "Route 1913",
+      "latitude": 28.650276,
+      "longitude": 77.238647,
+      "position": [
+        28.650276,
+        77.238647
+      ],
+      "speed": 2.1,
+      "trip_id": "1913_23_15",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3106",
+      "vehicle_id": "DL51EV3106",
+      "routeId": "1657",
+      "route": "Route 1657",
+      "latitude": 28.707893,
+      "longitude": 77.177872,
+      "position": [
+        28.707893,
+        77.177872
+      ],
+      "speed": 29.6,
+      "trip_id": "1657_23_09_8932",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD8930",
+      "vehicle_id": "DL1PD8930",
+      "routeId": "3245",
+      "route": "Route 3245",
+      "latitude": 28.719959,
+      "longitude": 77.108437,
+      "position": [
+        28.719959,
+        77.108437
+      ],
+      "speed": 16.9,
+      "trip_id": "3245_22_55",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5091",
+      "vehicle_id": "DL1PD5091",
+      "routeId": "899",
+      "route": "Route 899",
+      "latitude": 28.654366,
+      "longitude": 76.95063,
+      "position": [
+        28.654366,
+        76.95063
+      ],
+      "speed": 16.3,
+      "trip_id": "899_23_37",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8651",
+      "vehicle_id": "DL1PD8651",
+      "routeId": "2875",
+      "route": "Route 2875",
+      "latitude": 28.602949,
+      "longitude": 77.329117,
+      "position": [
+        28.602949,
+        77.329117
+      ],
+      "speed": 12.7,
+      "trip_id": "2875_23_44_7768",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7905",
+      "vehicle_id": "DL1PD7905",
+      "routeId": "1616",
+      "route": "Route 1616",
+      "latitude": 28.653341,
+      "longitude": 77.155701,
+      "position": [
+        28.653341,
+        77.155701
+      ],
+      "speed": 14.2,
+      "trip_id": "1616_23_49_9871",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3596",
+      "vehicle_id": "DL51EV3596",
+      "routeId": "2570",
+      "route": "Route 2570",
+      "latitude": 28.692791,
+      "longitude": 77.154198,
+      "position": [
+        28.692791,
+        77.154198
+      ],
+      "speed": 18.5,
+      "trip_id": "2570_23_26_4757",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD5483",
+      "vehicle_id": "DL1PD5483",
+      "routeId": "312",
+      "route": "Route 312",
+      "latitude": 28.810213,
+      "longitude": 77.075729,
+      "position": [
+        28.810213,
+        77.075729
+      ],
+      "speed": 12.3,
+      "trip_id": "312_23_24_7128",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1895",
+      "vehicle_id": "DL51EV1895",
+      "routeId": "2114",
+      "route": "Route 2114",
+      "latitude": 28.681498,
+      "longitude": 77.155312,
+      "position": [
+        28.681498,
+        77.155312
+      ],
+      "speed": 16.8,
+      "trip_id": "2114_23_20",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD7498",
+      "vehicle_id": "DL1PD7498",
+      "routeId": "2356",
+      "route": "Route 2356",
+      "latitude": 28.622267,
+      "longitude": 76.997818,
+      "position": [
+        28.622267,
+        76.997818
+      ],
+      "speed": 2.4,
+      "trip_id": "2356_23_50_3635",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3609",
+      "vehicle_id": "DL51EV3609",
+      "routeId": "1529",
+      "route": "Route 1529",
+      "latitude": 28.69256,
+      "longitude": 77.154015,
+      "position": [
+        28.69256,
+        77.154015
+      ],
+      "speed": 30.1,
+      "trip_id": "1529_22_55_3351",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51EV2511",
+      "vehicle_id": "DL51EV2511",
+      "routeId": "2694",
+      "route": "Route 2694",
+      "latitude": 28.671505,
+      "longitude": 77.280724,
+      "position": [
+        28.671505,
+        77.280724
+      ],
+      "speed": 6.2,
+      "trip_id": "2694_23_02_2393",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD5381",
+      "vehicle_id": "DL1PD5381",
+      "routeId": "883",
+      "route": "Route 883",
+      "latitude": 28.568895,
+      "longitude": 76.976883,
+      "position": [
+        28.568895,
+        76.976883
+      ],
+      "speed": 15.1,
+      "trip_id": "883_23_53_9786",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7875",
+      "vehicle_id": "DL1PD7875",
+      "routeId": "3415",
+      "route": "Route 3415",
+      "latitude": 28.678576,
+      "longitude": 77.191635,
+      "position": [
+        28.678576,
+        77.191635
+      ],
+      "speed": 6.0,
+      "trip_id": "3415_18_14_9481",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9626",
+      "vehicle_id": "DL1PD9626",
+      "routeId": "2043",
+      "route": "Route 2043",
+      "latitude": 28.669224,
+      "longitude": 77.097374,
+      "position": [
+        28.669224,
+        77.097374
+      ],
+      "speed": 18.1,
+      "trip_id": "2043_20_55",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV9638",
+      "vehicle_id": "DL51EV9638",
+      "routeId": "1697",
+      "route": "Route 1697",
+      "latitude": 28.660828,
+      "longitude": 77.145851,
+      "position": [
+        28.660828,
+        77.145851
+      ],
+      "speed": 23.0,
+      "trip_id": "1697_22_25_2990",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51EV1796",
+      "vehicle_id": "DL51EV1796",
+      "routeId": "2694",
+      "route": "Route 2694",
+      "latitude": 28.637383,
+      "longitude": 77.314537,
+      "position": [
+        28.637383,
+        77.314537
+      ],
+      "speed": 5.2,
+      "trip_id": "2694_22_26_3312",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD8139",
+      "vehicle_id": "DL1PD8139",
+      "routeId": "2513",
+      "route": "Route 2513",
+      "latitude": 28.681826,
+      "longitude": 77.076965,
+      "position": [
+        28.681826,
+        77.076965
+      ],
+      "speed": 3.1,
+      "trip_id": "2513_23_59_9387",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PE0281",
+      "vehicle_id": "DL1PE0281",
+      "routeId": "3514",
+      "route": "Route 3514",
+      "latitude": 28.84557,
+      "longitude": 77.099937,
+      "position": [
+        28.84557,
+        77.099937
+      ],
+      "speed": 26.1,
+      "trip_id": "3514_23_25",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8125",
+      "vehicle_id": "DL1PD8125",
+      "routeId": "3544",
+      "route": "Route 3544",
+      "latitude": 28.619526,
+      "longitude": 76.986008,
+      "position": [
+        28.619526,
+        76.986008
+      ],
+      "speed": 31.6,
+      "trip_id": "3544_20_30",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD9247",
+      "vehicle_id": "DL51GD9247",
+      "routeId": "2583",
+      "route": "Route 2583",
+      "latitude": 28.555227,
+      "longitude": 77.094032,
+      "position": [
+        28.555227,
+        77.094032
+      ],
+      "speed": 4.2,
+      "trip_id": "2583_23_59_2561",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5874",
+      "vehicle_id": "DL1PD5874",
+      "routeId": "3721",
+      "route": "Route 3721",
+      "latitude": 28.671257,
+      "longitude": 76.983093,
+      "position": [
+        28.671257,
+        76.983093
+      ],
+      "speed": 1.4,
+      "trip_id": "3721_23_53_9354",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8684",
+      "vehicle_id": "DL1PD8684",
+      "routeId": "2187",
+      "route": "Route 2187",
+      "latitude": 28.592838,
+      "longitude": 77.079239,
+      "position": [
+        28.592838,
+        77.079239
+      ],
+      "speed": 9.2,
+      "trip_id": "2187_22_55_6344",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5490",
+      "vehicle_id": "DL1PD5490",
+      "routeId": "1149",
+      "route": "Route 1149",
+      "latitude": 28.816088,
+      "longitude": 77.058693,
+      "position": [
+        28.816088,
+        77.058693
+      ],
+      "speed": 0.9,
+      "trip_id": "1149_23_09_9716",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8721",
+      "vehicle_id": "DL1PD8721",
+      "routeId": "2183",
+      "route": "Route 2183",
+      "latitude": 28.593073,
+      "longitude": 77.079765,
+      "position": [
+        28.593073,
+        77.079765
+      ],
+      "speed": 11.7,
+      "trip_id": "2183_23_00",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV8672",
+      "vehicle_id": "DL51EV8672",
+      "routeId": "1899",
+      "route": "Route 1899",
+      "latitude": 28.547291,
+      "longitude": 77.277321,
+      "position": [
+        28.547291,
+        77.277321
+      ],
+      "speed": 2.2,
+      "trip_id": "1899_23_49_6969",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51GD2284",
+      "vehicle_id": "DL51GD2284",
+      "routeId": "3511",
+      "route": "Route 3511",
+      "latitude": 28.608292,
+      "longitude": 76.953819,
+      "position": [
+        28.608292,
+        76.953819
+      ],
+      "speed": 4.1,
+      "trip_id": "3511_23_53_6324",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9103",
+      "vehicle_id": "DL1PD9103",
+      "routeId": "1829",
+      "route": "Route 1829",
+      "latitude": 28.596983,
+      "longitude": 77.344406,
+      "position": [
+        28.596983,
+        77.344406
+      ],
+      "speed": 1.4,
+      "trip_id": "1829_23_43_3956",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV9747",
+      "vehicle_id": "DL51EV9747",
+      "routeId": "2443",
+      "route": "Route 2443",
+      "latitude": 28.680576,
+      "longitude": 77.085915,
+      "position": [
+        28.680576,
+        77.085915
+      ],
+      "speed": 6.4,
+      "trip_id": "2443_23_34_6791",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51EV4977",
+      "vehicle_id": "DL51EV4977",
+      "routeId": "1473",
+      "route": "Route 1473",
+      "latitude": 28.643122,
+      "longitude": 77.246979,
+      "position": [
+        28.643122,
+        77.246979
+      ],
+      "speed": 1.4,
+      "trip_id": "1473_23_50_7552",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD9360",
+      "vehicle_id": "DL1PD9360",
+      "routeId": "2893",
+      "route": "Route 2893",
+      "latitude": 28.639538,
+      "longitude": 77.318466,
+      "position": [
+        28.639538,
+        77.318466
+      ],
+      "speed": 16.5,
+      "trip_id": "2893_23_53_5121",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7997",
+      "vehicle_id": "DL1PD7997",
+      "routeId": "3544",
+      "route": "Route 3544",
+      "latitude": 28.682241,
+      "longitude": 77.06768,
+      "position": [
+        28.682241,
+        77.06768
+      ],
+      "speed": 15.0,
+      "trip_id": "3544_23_16_6436",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD6993",
+      "vehicle_id": "DL1PD6993",
+      "routeId": "2065",
+      "route": "Route 2065",
+      "latitude": 28.624945,
+      "longitude": 77.309143,
+      "position": [
+        28.624945,
+        77.309143
+      ],
+      "speed": 2.9,
+      "trip_id": "2065_23_33_7118",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV4305",
+      "vehicle_id": "DL51EV4305",
+      "routeId": "265",
+      "route": "Route 265",
+      "latitude": 28.730213,
+      "longitude": 77.198364,
+      "position": [
+        28.730213,
+        77.198364
+      ],
+      "speed": 3.9,
+      "trip_id": "265_23_45_1300",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD7268",
+      "vehicle_id": "DL1PD7268",
+      "routeId": "1698",
+      "route": "Route 1698",
+      "latitude": 28.675776,
+      "longitude": 77.300171,
+      "position": [
+        28.675776,
+        77.300171
+      ],
+      "speed": 7.7,
+      "trip_id": "1698_23_51_3711",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD3378",
+      "vehicle_id": "DL51GD3378",
+      "routeId": "1920",
+      "route": "Route 1920",
+      "latitude": 28.646729,
+      "longitude": 77.240257,
+      "position": [
+        28.646729,
+        77.240257
+      ],
+      "speed": 5.1,
+      "trip_id": "1920_23_44_9552",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV9779",
+      "vehicle_id": "DL51EV9779",
+      "routeId": "1937",
+      "route": "Route 1937",
+      "latitude": 28.5135,
+      "longitude": 77.236687,
+      "position": [
+        28.5135,
+        77.236687
+      ],
+      "speed": 3.3,
+      "trip_id": "1937_23_50_7968",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51EV4328",
+      "vehicle_id": "DL51EV4328",
+      "routeId": "265",
+      "route": "Route 265",
+      "latitude": 28.72823,
+      "longitude": 77.198593,
+      "position": [
+        28.72823,
+        77.198593
+      ],
+      "speed": 4.4,
+      "trip_id": "265_23_48_6932",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51GD9185",
+      "vehicle_id": "DL51GD9185",
+      "routeId": "1942",
+      "route": "Route 1942",
+      "latitude": 28.701124,
+      "longitude": 77.162704,
+      "position": [
+        28.701124,
+        77.162704
+      ],
+      "speed": 2.9,
+      "trip_id": "1942_23_56_7574",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD2218",
+      "vehicle_id": "DL51GD2218",
+      "routeId": "2544",
+      "route": "Route 2544",
+      "latitude": 28.66328,
+      "longitude": 77.051361,
+      "position": [
+        28.66328,
+        77.051361
+      ],
+      "speed": 4.2,
+      "trip_id": "2544_23_11_3334",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8031",
+      "vehicle_id": "DL1PD8031",
+      "routeId": "2493",
+      "route": "Route 2493",
+      "latitude": 28.687967,
+      "longitude": 77.090958,
+      "position": [
+        28.687967,
+        77.090958
+      ],
+      "speed": 22.0,
+      "trip_id": "2493_22_14_1185",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV9754",
+      "vehicle_id": "DL51EV9754",
+      "routeId": "2245",
+      "route": "Route 2245",
+      "latitude": 28.637461,
+      "longitude": 77.129738,
+      "position": [
+        28.637461,
+        77.129738
+      ],
+      "speed": 11.8,
+      "trip_id": "2245_23_41_4128",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51EV8832",
+      "vehicle_id": "DL51EV8832",
+      "routeId": "1899",
+      "route": "Route 1899",
+      "latitude": 28.530958,
+      "longitude": 77.287308,
+      "position": [
+        28.530958,
+        77.287308
+      ],
+      "speed": 1.0,
+      "trip_id": "1899_23_53_4856",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51GD9097",
+      "vehicle_id": "DL51GD9097",
+      "routeId": "2530",
+      "route": "Route 2530",
+      "latitude": 28.706707,
+      "longitude": 77.123344,
+      "position": [
+        28.706707,
+        77.123344
+      ],
+      "speed": 4.4,
+      "trip_id": "2530_22_45",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3237",
+      "vehicle_id": "DL51EV3237",
+      "routeId": "1153",
+      "route": "Route 1153",
+      "latitude": 28.727285,
+      "longitude": 77.081284,
+      "position": [
+        28.727285,
+        77.081284
+      ],
+      "speed": 1.4,
+      "trip_id": "1153_23_55_909",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD4862",
+      "vehicle_id": "DL1PD4862",
+      "routeId": "2160",
+      "route": "Route 2160",
+      "latitude": 28.798445,
+      "longitude": 77.03508,
+      "position": [
+        28.798445,
+        77.03508
+      ],
+      "speed": 2.7,
+      "trip_id": "2160_23_40_8047",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV9735",
+      "vehicle_id": "DL51EV9735",
+      "routeId": "3758",
+      "route": "Route 3758",
+      "latitude": 28.492695,
+      "longitude": 77.303673,
+      "position": [
+        28.492695,
+        77.303673
+      ],
+      "speed": 33.1,
+      "trip_id": "3758_23_56_8390",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL51GD3065",
+      "vehicle_id": "DL51GD3065",
+      "routeId": "2054",
+      "route": "Route 2054",
+      "latitude": 28.66754,
+      "longitude": 76.941704,
+      "position": [
+        28.66754,
+        76.941704
+      ],
+      "speed": 8.1,
+      "trip_id": "2054_22_20_1493",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD3231",
+      "vehicle_id": "DL51GD3231",
+      "routeId": "2734",
+      "route": "Route 2734",
+      "latitude": 28.707502,
+      "longitude": 77.178299,
+      "position": [
+        28.707502,
+        77.178299
+      ],
+      "speed": 20.7,
+      "trip_id": "2734_23_44_2252",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD9726",
+      "vehicle_id": "DL51GD9726",
+      "routeId": "3513",
+      "route": "Route 3513",
+      "latitude": 28.7162,
+      "longitude": 77.112907,
+      "position": [
+        28.7162,
+        77.112907
+      ],
+      "speed": 13.7,
+      "trip_id": "3513_23_49_4206",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9510",
+      "vehicle_id": "DL1PD9510",
+      "routeId": "1811",
+      "route": "Route 1811",
+      "latitude": 28.576523,
+      "longitude": 77.319656,
+      "position": [
+        28.576523,
+        77.319656
+      ],
+      "speed": 1.9,
+      "trip_id": "1811_23_53_6207",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5601",
+      "vehicle_id": "DL1PD5601",
+      "routeId": "899",
+      "route": "Route 899",
+      "latitude": 28.618231,
+      "longitude": 76.930695,
+      "position": [
+        28.618231,
+        76.930695
+      ],
+      "speed": 25.4,
+      "trip_id": "899_23_24",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD4987",
+      "vehicle_id": "DL1PD4987",
+      "routeId": "869",
+      "route": "Route 869",
+      "latitude": 28.611946,
+      "longitude": 76.938469,
+      "position": [
+        28.611946,
+        76.938469
+      ],
+      "speed": 4.3,
+      "trip_id": "869_23_48_1489",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7004",
+      "vehicle_id": "DL1PD7004",
+      "routeId": "1728",
+      "route": "Route 1728",
+      "latitude": 28.725739,
+      "longitude": 77.259201,
+      "position": [
+        28.725739,
+        77.259201
+      ],
+      "speed": 3.3,
+      "trip_id": "1728_22_05",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD5229",
+      "vehicle_id": "DL1PD5229",
+      "routeId": "883",
+      "route": "Route 883",
+      "latitude": 28.5916,
+      "longitude": 76.993073,
+      "position": [
+        28.5916,
+        76.993073
+      ],
+      "speed": 4.8,
+      "trip_id": "883_23_59_2734",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8627",
+      "vehicle_id": "DL1PD8627",
+      "routeId": "3063",
+      "route": "Route 3063",
+      "latitude": 28.528048,
+      "longitude": 77.205849,
+      "position": [
+        28.528048,
+        77.205849
+      ],
+      "speed": 21.4,
+      "trip_id": "3063_22_50",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7487",
+      "vehicle_id": "DL1PD7487",
+      "routeId": "1003",
+      "route": "Route 1003",
+      "latitude": 28.648876,
+      "longitude": 77.079033,
+      "position": [
+        28.648876,
+        77.079033
+      ],
+      "speed": 20.9,
+      "trip_id": "1003_23_25_6404",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV0590",
+      "vehicle_id": "DL51EV0590",
+      "routeId": "2364",
+      "route": "Route 2364",
+      "latitude": 28.724445,
+      "longitude": 77.1297,
+      "position": [
+        28.724445,
+        77.1297
+      ],
+      "speed": 9.0,
+      "trip_id": "2364_23_40",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD7439",
+      "vehicle_id": "DL1PD7439",
+      "routeId": "1850",
+      "route": "Route 1850",
+      "latitude": 28.515327,
+      "longitude": 77.228851,
+      "position": [
+        28.515327,
+        77.228851
+      ],
+      "speed": 6.3,
+      "trip_id": "1850_23_44_9798",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD3226",
+      "vehicle_id": "DL51GD3226",
+      "routeId": "1839",
+      "route": "Route 1839",
+      "latitude": 28.668285,
+      "longitude": 77.22805,
+      "position": [
+        28.668285,
+        77.22805
+      ],
+      "speed": 1.6,
+      "trip_id": "1839_23_05",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7241",
+      "vehicle_id": "DL1PD7241",
+      "routeId": "1713",
+      "route": "Route 1713",
+      "latitude": 28.698662,
+      "longitude": 77.306549,
+      "position": [
+        28.698662,
+        77.306549
+      ],
+      "speed": 7.5,
+      "trip_id": "1713_23_55",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9132",
+      "vehicle_id": "DL1PD9132",
+      "routeId": "1829",
+      "route": "Route 1829",
+      "latitude": 28.597141,
+      "longitude": 77.329788,
+      "position": [
+        28.597141,
+        77.329788
+      ],
+      "speed": 3.5,
+      "trip_id": "1829_23_50",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9042",
+      "vehicle_id": "DL1PD9042",
+      "routeId": "2562",
+      "route": "Route 2562",
+      "latitude": 28.731228,
+      "longitude": 77.092491,
+      "position": [
+        28.731228,
+        77.092491
+      ],
+      "speed": 7.0,
+      "trip_id": "2562_23_52_5905",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD4762",
+      "vehicle_id": "DL1PD4762",
+      "routeId": "70",
+      "route": "Route 70",
+      "latitude": 28.707912,
+      "longitude": 77.001419,
+      "position": [
+        28.707912,
+        77.001419
+      ],
+      "speed": 2.2,
+      "trip_id": "70_23_41_3926",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7976",
+      "vehicle_id": "DL1PD7976",
+      "routeId": "2176",
+      "route": "Route 2176",
+      "latitude": 28.557648,
+      "longitude": 77.061699,
+      "position": [
+        28.557648,
+        77.061699
+      ],
+      "speed": 3.0,
+      "trip_id": "2176_23_47_447",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1548",
+      "vehicle_id": "DL51EV1548",
+      "routeId": "2694",
+      "route": "Route 2694",
+      "latitude": 28.660282,
+      "longitude": 77.288277,
+      "position": [
+        28.660282,
+        77.288277
+      ],
+      "speed": 6.2,
+      "trip_id": "2694_23_00",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD8587",
+      "vehicle_id": "DL1PD8587",
+      "routeId": "1850",
+      "route": "Route 1850",
+      "latitude": 28.517815,
+      "longitude": 77.216675,
+      "position": [
+        28.517815,
+        77.216675
+      ],
+      "speed": 1.9,
+      "trip_id": "1850_23_56_5758",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7548",
+      "vehicle_id": "DL1PD7548",
+      "routeId": "1924",
+      "route": "Route 1924",
+      "latitude": 28.519516,
+      "longitude": 77.227905,
+      "position": [
+        28.519516,
+        77.227905
+      ],
+      "speed": 1.5,
+      "trip_id": "1924_23_50_8847",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD8350",
+      "vehicle_id": "DL1PD8350",
+      "routeId": "3107",
+      "route": "Route 3107",
+      "latitude": 28.612757,
+      "longitude": 76.979485,
+      "position": [
+        28.612757,
+        76.979485
+      ],
+      "speed": 19.4,
+      "trip_id": "3107_23_57_9580",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7922",
+      "vehicle_id": "DL1PD7922",
+      "routeId": "2881",
+      "route": "Route 2881",
+      "latitude": 28.621347,
+      "longitude": 77.300583,
+      "position": [
+        28.621347,
+        77.300583
+      ],
+      "speed": 33.2,
+      "trip_id": "2881_23_25",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51GD8680",
+      "vehicle_id": "DL51GD8680",
+      "routeId": "2182",
+      "route": "Route 2182",
+      "latitude": 28.626423,
+      "longitude": 77.134155,
+      "position": [
+        28.626423,
+        77.134155
+      ],
+      "speed": 9.4,
+      "trip_id": "2182_23_54_1702",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1627",
+      "vehicle_id": "DL51EV1627",
+      "routeId": "1812",
+      "route": "Route 1812",
+      "latitude": 28.649149,
+      "longitude": 77.294487,
+      "position": [
+        28.649149,
+        77.294487
+      ],
+      "speed": 1.7,
+      "trip_id": "1812_23_56_7201",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD5131",
+      "vehicle_id": "DL1PD5131",
+      "routeId": "186",
+      "route": "Route 186",
+      "latitude": 28.828825,
+      "longitude": 77.049438,
+      "position": [
+        28.828825,
+        77.049438
+      ],
+      "speed": 5.4,
+      "trip_id": "186_22_20",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV1174",
+      "vehicle_id": "DL51EV1174",
+      "routeId": "3399",
+      "route": "Route 3399",
+      "latitude": 28.703785,
+      "longitude": 77.210846,
+      "position": [
+        28.703785,
+        77.210846
+      ],
+      "speed": 12.8,
+      "trip_id": "3399_23_41_2396",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD7944",
+      "vehicle_id": "DL1PD7944",
+      "routeId": "2277",
+      "route": "Route 2277",
+      "latitude": 28.60623,
+      "longitude": 77.075233,
+      "position": [
+        28.60623,
+        77.075233
+      ],
+      "speed": 1.4,
+      "trip_id": "2277_23_15_7384",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD6940",
+      "vehicle_id": "DL1PD6940",
+      "routeId": "1728",
+      "route": "Route 1728",
+      "latitude": 28.661762,
+      "longitude": 77.219643,
+      "position": [
+        28.661762,
+        77.219643
+      ],
+      "speed": 24.5,
+      "trip_id": "1728_23_10",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD6683",
+      "vehicle_id": "DL1PD6683",
+      "routeId": "1501",
+      "route": "Route 1501",
+      "latitude": 28.640396,
+      "longitude": 77.128723,
+      "position": [
+        28.640396,
+        77.128723
+      ],
+      "speed": 1.7,
+      "trip_id": "1501_22_18_3012",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3539",
+      "vehicle_id": "DL51EV3539",
+      "routeId": "1597",
+      "route": "Route 1597",
+      "latitude": 28.710707,
+      "longitude": 77.175896,
+      "position": [
+        28.710707,
+        77.175896
+      ],
+      "speed": 15.6,
+      "trip_id": "1597_23_25",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD9506",
+      "vehicle_id": "DL1PD9506",
+      "routeId": "3716",
+      "route": "Route 3716",
+      "latitude": 28.703016,
+      "longitude": 77.088196,
+      "position": [
+        28.703016,
+        77.088196
+      ],
+      "speed": 23.2,
+      "trip_id": "3716_21_47_9713",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD6870",
+      "vehicle_id": "DL1PD6870",
+      "routeId": "400",
+      "route": "Route 400",
+      "latitude": 28.62188,
+      "longitude": 77.248245,
+      "position": [
+        28.62188,
+        77.248245
+      ],
+      "speed": 1.6,
+      "trip_id": "400_23_45",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD7020",
+      "vehicle_id": "DL1PD7020",
+      "routeId": "3423",
+      "route": "Route 3423",
+      "latitude": 28.727005,
+      "longitude": 77.269287,
+      "position": [
+        28.727005,
+        77.269287
+      ],
+      "speed": 13.4,
+      "trip_id": "3423_21_45",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD9547",
+      "vehicle_id": "DL1PD9547",
+      "routeId": "1810",
+      "route": "Route 1810",
+      "latitude": 28.63464,
+      "longitude": 77.283859,
+      "position": [
+        28.63464,
+        77.283859
+      ],
+      "speed": 3.1,
+      "trip_id": "1810_23_56_8892",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL1PD4997",
+      "vehicle_id": "DL1PD4997",
+      "routeId": "899",
+      "route": "Route 899",
+      "latitude": 28.608324,
+      "longitude": 76.953049,
+      "position": [
+        28.608324,
+        76.953049
+      ],
+      "speed": 17.2,
+      "trip_id": "899_22_37_5935",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    },
+    {
+      "id": "DL51EV3319",
+      "vehicle_id": "DL51EV3319",
+      "routeId": "1631",
+      "route": "Route 1631",
+      "latitude": 28.72551,
+      "longitude": 77.15506,
+      "position": [
+        28.72551,
+        77.15506
+      ],
+      "speed": 14.9,
+      "trip_id": "1631_22_07_7127",
+      "timestamp": "00:00:00",
+      "is_electric": true
+    },
+    {
+      "id": "DL1PD9497",
+      "vehicle_id": "DL1PD9497",
+      "routeId": "2893",
+      "route": "Route 2893",
+      "latitude": 28.689816,
+      "longitude": 77.303848,
+      "position": [
+        28.689816,
+        77.303848
+      ],
+      "speed": 14.2,
+      "trip_id": "2893_23_46_2026",
+      "timestamp": "00:00:00",
+      "is_electric": false
+    }
+  ]
+}
