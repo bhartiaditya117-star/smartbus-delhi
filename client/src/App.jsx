@@ -85,7 +85,7 @@ function App() {
   // Fetch issued tickets
   const fetchMyTickets = async () => {
     try {
-      const res = await axios.get("http://localhost:5001/api/tickets");
+      const res = await axios.get("/api/tickets");
       if (res.data.success) {
         setMyTickets(res.data.data || []);
       }
@@ -119,23 +119,51 @@ function App() {
     setIsTicketModalOpen(true);
   };
 
-  // Connect to backend Socket.IO for live buses
+  // Connect to backend Socket.IO for live buses, with fallback HTTP polling
   useEffect(() => {
-    const socket = io("http://localhost:5001");
+    let socket = null;
+    try {
+      socket = io(window.location.origin, {
+        transports: ["websocket", "polling"],
+        reconnectionAttempts: 2,
+        timeout: 3000
+      });
 
-    socket.on("connect", () => {
-      console.log("Connected to SmartBus backend!");
-    });
+      socket.on("connect", () => {
+        console.log("Connected to SmartBus backend!");
+      });
 
-    socket.on("busUpdate", (updatedBuses) => {
-      setLiveBuses(updatedBuses);
-      if (forecastMinutes === 0) {
-        setDisplayBuses(updatedBuses);
-      }
-    });
+      socket.on("busUpdate", (updatedBuses) => {
+        setLiveBuses(updatedBuses);
+        if (forecastMinutes === 0) {
+          setDisplayBuses(updatedBuses);
+        }
+      });
+    } catch (e) {
+      console.warn("Socket.io init skipped:", e);
+    }
+
+    // Initial and recurring poll for live buses (ensures live buses on serverless too)
+    const fetchLiveFleet = () => {
+      fetch("/api/buses")
+        .then(r => r.json())
+        .then(d => {
+          if (d.success && d.data && d.data.length > 0) {
+            setLiveBuses(d.data);
+            if (forecastMinutes === 0) {
+              setDisplayBuses(d.data);
+            }
+          }
+        })
+        .catch(() => {});
+    };
+
+    fetchLiveFleet();
+    const pollTimer = setInterval(fetchLiveFleet, 4000);
 
     return () => {
-      socket.disconnect();
+      if (socket) socket.disconnect();
+      clearInterval(pollTimer);
     };
   }, [forecastMinutes]);
 
@@ -149,7 +177,7 @@ function App() {
     }
 
     setForecastLoading(true);
-    fetch(`http://localhost:5001/api/buses/predicted?minutesAhead=${mins}`)
+    fetch(`/api/buses/predicted?minutesAhead=${mins}`)
       .then(res => res.json())
       .then(d => {
         if (d.success && d.data) {
@@ -166,7 +194,7 @@ function App() {
 
   // Fetch initial corridors
   useEffect(() => {
-    fetch("http://localhost:5001/api/traffic/corridors")
+    fetch("/api/traffic/corridors")
       .then(res => res.json())
       .then(d => {
         if (d.success && d.corridors) {
@@ -178,7 +206,7 @@ function App() {
 
   const loadBenchmarks = () => {
     setBenchLoading(true);
-    fetch(`http://localhost:5001/api/benchmark/compare?hour=${departureHour}`)
+    fetch(`/api/benchmark/compare?hour=${departureHour}`)
       .then(res => res.json())
       .then(d => {
         setBenchmarks(d);
@@ -218,7 +246,7 @@ function App() {
       setFromCoords(orig);
       setToCoords(dest);
 
-      const res = await fetch("http://localhost:5001/api/journey/plan", {
+      const res = await fetch("/api/journey/plan", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

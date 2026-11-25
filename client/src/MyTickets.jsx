@@ -9,7 +9,7 @@ export default function MyTickets({ onSelectTicket, onBookNew }) {
   const fetchTickets = async () => {
     setLoading(true);
     try {
-      const res = await axios.get("http://localhost:5001/api/tickets");
+      const res = await axios.get("/api/tickets");
       if (res.data.success) {
         setTickets(res.data.data || []);
       }

@@ -175,7 +175,7 @@ export default function TicketModal({ isOpen, onClose, initialData = null, onTic
         vehicleNumber: initialData?.vehicleNumber || "DL1PD" + Math.floor(1000 + Math.random() * 9000)
       };
 
-      const res = await axios.post("http://localhost:5001/api/tickets/book", payload);
+      const res = await axios.post("/api/tickets/book", payload);
       if (res.data.success) {
         setIssuedTicket(res.data.data);
         if (onTicketBooked) {

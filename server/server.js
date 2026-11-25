@@ -442,7 +442,11 @@ function round(val, dec) {
   return Math.round(val * p) / p;
 }
 
-const PORT = process.env.PORT || 5001;
-server.listen(PORT, () => {
-  console.log(`SmartBus Delhi Traffic Model & Journey Planner running at http://localhost:${PORT}`);
-});
+module.exports = app;
+
+if (require.main === module) {
+  const PORT = process.env.PORT || 5001;
+  server.listen(PORT, () => {
+    console.log(`SmartBus Delhi Traffic Model & Journey Planner running at http://localhost:${PORT}`);
+  });
+}
